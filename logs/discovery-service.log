@@ -1,0 +1,13 @@
+2022-03-01 00:00:00.296  WARN 18540 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: SAVINGS-SERVICE-A/192.168.10.128:SAVINGS-SERVICE-A:8081
+2022-03-01 00:00:00.326  INFO 18540 --- [http-nio-8761-exec-7] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): SAVINGS-SERVICE-A - 192.168.10.128:SAVINGS-SERVICE-A:8081
+2022-03-01 00:00:00.330  WARN 18540 --- [TaskBatchingWorker-target_localhost-16] c.n.eureka.cluster.ReplicationTask       : The replication of task SAVINGS-SERVICE-A/192.168.10.128:SAVINGS-SERVICE-A:8081:Cancel@localhost failed with response code 404
+2022-03-01 00:00:00.332  WARN 18540 --- [TaskBatchingWorker-target_localhost-16] c.netflix.eureka.cluster.PeerEurekaNode  : SAVINGS-SERVICE-A/192.168.10.128:SAVINGS-SERVICE-A:8081:Cancel@localhost: missing entry.
+2022-03-01 00:00:10.821  INFO 18540 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SERVICE-REGISTRY with eureka with status DOWN
+2022-03-01 00:00:10.897  INFO 18540 --- [SpringApplicationShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Shutting down Eureka Server..
+2022-03-01 00:00:10.920  INFO 18540 --- [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2022-03-01 00:00:10.981  INFO 18540 --- [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2022-03-01 00:00:10.982  INFO 18540 --- [SpringApplicationShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka Service is now shutdown...
+2022-03-01 00:00:10.983  INFO 18540 --- [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2022-03-01 00:00:10.997  INFO 18540 --- [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2022-03-01 00:00:11.032  INFO 18540 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-03-01 00:00:11.041  INFO 18540 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
